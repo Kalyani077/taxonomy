@@ -1,0 +1,65 @@
+version: 3
+domain: "University of Texas Longhorns Football"
+created_by: Kalyani077
+seed_examples:
+  - context: |
+        The Texas Longhorns football team represents the University of Texas at Austin. The team has won multiple national championships and competes in the Big 12 Conference. They play home games at Darrell K Royal–Texas Memorial Stadium and have a strong rivalry with the Oklahoma Sooners.
+    questions_and_answers:
+      - question: |
+           What is the University of Texas Longhorns football team?
+        answer: |
+           The Texas Longhorns football team represents the University of Texas at Austin in NCAA Division I football. They are a member of the Big 12 Conference and have won multiple national championships.
+      - question: |
+           How many national championships has the Texas Longhorns football team won?
+        answer: |
+           The Texas Longhorns football team has won four recognized national championships: in 1963, 1969, 1970, and 2005.
+      - question: |
+           Who are the biggest rivals of the Texas Longhorns football team?
+        answer: |
+           The biggest rivals of the Texas Longhorns are the Oklahoma Sooners and Texas A&M Aggies. Their game against Oklahoma is known as the Red River Rivalry.
+
+  - context: |
+        Darrell K Royal–Texas Memorial Stadium, located in Austin, Texas, is the home stadium of the Texas Longhorns football team. It has a seating capacity of over 100,000 and is one of the largest college football stadiums in the United States.
+    questions_and_answers:
+      - question: |
+           Where does the Texas Longhorns football team play their home games?        
+        answer: |
+           The Texas Longhorns football team plays at Darrell K Royal–Texas Memorial Stadium in Austin, Texas.
+      - question: |
+           What is the seating capacity of Darrell K Royal–Texas Memorial Stadium?
+        answer: |
+           The stadium has a seating capacity of over 100,000, making it one of the largest college football stadiums in the country.
+  - context: |
+        The Heisman Trophy is awarded annually to the most outstanding player in college football. Two Texas Longhorns players have won the Heisman Trophy: Earl Campbell in 1977 and Ricky Williams in 1998.
+    questions_and_answers:
+      - question:|
+           How many Texas Longhorns players have won the Heisman Trophy?
+        answer: |
+           Two Texas Longhorns players have won the Heisman Trophy: Earl Campbell (1977) and Ricky Williams (1998).
+      - question: |
+           What is the Heisman Trophy?
+        answer: |
+           The Heisman Trophy is an annual award given to the most outstanding player in college football.
+  - context: |
+        The Red River Rivalry is an annual college football game between the Texas Longhorns and the Oklahoma Sooners. It is played at the Cotton Bowl in Dallas, Texas, and is one of the most famous rivalries in college football.
+    questions_and_answers:
+      - question: |
+           What is the Red River Rivalry?
+        answer: |
+           The Red River Rivalry is a college football game played annually between the Texas Longhorns and the Oklahoma Sooners at the Cotton Bowl in Dallas, Texas.
+      - question: |
+           Where is the Red River Rivalry played?
+        answer: |
+           The game is played at the Cotton Bowl in Dallas, Texas.
+document_outline: |
+  This document provides information about the University of Texas Longhorns football team, including its history, championships, rivalries, stadium, and notable players.
+document:
+  repo: https://github.com/Kalyani077/taxonomy.git
+  commit: aea09c1236696df2c713d4b67f6d245559b43a3b
+  patterns:
+    - Texas_Longhorns_football.md
+    - Texas_Longhorns_football.pdf
+    - "*.md"
+    - "*.pdf"
+    - "knowledge/arts/sports/american_football/college/university_of_texas/*.md"
+
